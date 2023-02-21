@@ -1,0 +1,22 @@
+.container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherResult {
+    height: 50%;
+    width: 40%;
+    background-color:#121212;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.weatherResult span {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}

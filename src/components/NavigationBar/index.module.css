@@ -1,0 +1,27 @@
+.navigationBar{
+    height: 15vh;
+    background-color:#f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navigationBar img{
+    mix-blend-mode: multiply;
+}
+.navigationBar button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-style: normal;
+    cursor: pointer;
+    background-color: #286DF1;
+    color: beige;
+  }
+  
+  .addProductButton:hover{
+    opacity: 0.6;
+  }
